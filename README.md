@@ -1,2 +1,3 @@
 # uoftverse
-TBD
+
+Take your first step into UofTverse! \n 
