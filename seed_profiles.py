@@ -15,7 +15,7 @@ def seed_profiles():
             "name": "Prof. Berj Bardakjian",
             "department": "Electrical & Computer Engineering",
             "title": "Professor",
-            "phone": "+1-416-978-7770",
+            "email": "berj@ece.utoronto.ca",
             "research_interests": [
                 "Neural Engineering",
                 "Epilepsy Prediction",
@@ -34,7 +34,7 @@ def seed_profiles():
             "name": "Prof. Ashvin Goel",
             "department": "Electrical & Computer Engineering",
             "title": "Professor",
-            "phone": "+1-416-978-5406",
+            "email": "goel@ece.utoronto.ca",
             "research_interests": [
                 "Operating Systems",
                 "Computer Security",
@@ -53,7 +53,7 @@ def seed_profiles():
             "name": "Prof. Deepa Kundur",
             "department": "Electrical & Computer Engineering",
             "title": "Professor & Chair",
-            "phone": "+1-416-978-6865",
+            "email": "kundur@ece.utoronto.ca",
             "research_interests": [
                 "Cybersecurity",
                 "Smart Grid",
@@ -72,7 +72,7 @@ def seed_profiles():
             "name": "Prof. Olivier Trescases",
             "department": "Electrical & Computer Engineering",
             "title": "Professor",
-            "phone": "+1-416-978-6028",
+            "email": "trescases@ece.utoronto.ca",
             "research_interests": [
                 "Power Electronics",
                 "Electric Vehicles",
@@ -91,7 +91,7 @@ def seed_profiles():
             "name": "Prof. Mark Jeffrey",
             "department": "Electrical & Computer Engineering",
             "title": "Assistant Professor",
-            "phone": "+1-416-978-0000",
+            "email": "mark.jeffrey@ece.utoronto.ca",
             "research_interests": [
                 "Computer Architecture",
                 "Parallel Computing",
@@ -110,7 +110,7 @@ def seed_profiles():
             "name": "Prof. Shurui Zhou",
             "department": "Electrical & Computer Engineering",
             "title": "Assistant Professor",
-            "phone": "+1-416-978-0001",
+            "email": "shurui.zhou@ece.utoronto.ca",
             "research_interests": [
                 "Software Engineering",
                 "AI Systems",
@@ -129,7 +129,7 @@ def seed_profiles():
             "name": "Noah Balatbat",
             "department": "Electrical & Computer Engineering",
             "title": "1st Year Undergraduate",
-            "phone": "+1-647-000-1001",
+            "email": "noah@student.utoronto.ca",
             "research_interests": ["AI", "Robotics", "Chip Design"],
             "bio": "ECE student interested in machine learning and robotics research.",
             "skills": ["Python", "AWS", "React"],
@@ -144,7 +144,7 @@ def seed_profiles():
             "name": "Iris Wang",
             "department": "Electrical & Computer Engineering",
             "title": "1st Year Undergraduate",
-            "phone": "+1-647-000-1002",
+            "email": "iris.wang@student.utoronto.ca",
             "research_interests": ["AI", "Medical Imaging", "Deep Learning"],
             "bio": "Student researching tumour detection using edge deployed CNNs.",
             "skills": ["Python", "C++", "AWS"],
@@ -159,7 +159,7 @@ def seed_profiles():
             "name": "Aisha Nkosi",
             "department": "Electrical & Computer Engineering",
             "title": "4th Year Undergraduate",
-            "phone": "+1-647-000-1003",
+            "email": "aisha.nkosi@student.utoronto.ca",
             "research_interests": [
                 "Renewable Energy",
                 "Control Systems",
