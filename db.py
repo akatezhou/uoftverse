@@ -7,3 +7,8 @@ table = dynamodb.Table("posts")
 def get_posts():
     response = table.scan()
     return response["Items"]
+
+def get_profiles():
+    table = dynamodb.Table("uoftverse-profiles")
+    response = table.scan()
+    return response["Items"]
