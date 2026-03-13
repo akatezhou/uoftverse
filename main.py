@@ -5,12 +5,20 @@ app = FastAPI()
 
 @app.get("/")
 def root():
-    return {"message": "API running"}
+    return {"message": "UofTVerse API running"}
 
 @app.get("/search")
-def search_posts(
-    q: str | None = None,
-    type: str | None = None,
-    department: str | None = None
+def search_endpoint(
+    q: str = None,
+    type: str = None,
+    department: str = None,
+    entity: str = "all"
 ):
-    return search(q, type, department)
+    results = search(
+        query=q,
+        type=type,
+        department=department,
+        entity=entity
+    )
+
+    return results
