@@ -24,6 +24,9 @@ def search(query=None, type=None, department=None, entity="all"):
     listings = []
     profiles = []
 
+     if entity:
+        entity = entity.lower();
+
     if entity in ["all", "listings"]:
         listings = get_posts()
 
